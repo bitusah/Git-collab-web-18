@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+   <style>
+
+body{
+    background-color:teal;
+}
+    #main{
+        background-color: white;
+        width: 20%;
+        margin: auto;
+        margin-top: 200px;
+       border-radius: 20px;
+        text-align: center;
+      display: grid;
+      grid-template-columns: (1,1fr);
+      gap: 30px;
+    }
+
+  #login{
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  #email>input{
+   
+    padding-bottom: -80px;
+    border: none;
+  margin-right: 50px;
+  font-size: larger;
+
+   
+ 
+  }
+  hr{
+    width: 300px;
+  }
+
+  #button{
+    margin: auto;
+       height: 50px;
+       display: block;
+       background-color: teal;
+       width: 320px;
+    
+  }
+ p{
+    display: flex;
+    margin: auto;
+ margin-bottom: 20px;
+    
+ }
+
+
+  #main>p:first-child(1){
+    border: 2px solid rebeccapurple;
+  }
+
+  #pass{
+    padding-bottom: -80px;
+    border: none;
+  
+    margin-right: 50px;
+  font-size: larger;
+
+
+
+  }
+
+  #fg{
+    margin-top: 30px;
+ margin-bottom: -10px;
+  
+  }
+
+  #fg+p{
+    padding-bottom: 30px;
+  }
+   </style>
+</head>
+<body>
+
+    <div id="main">            
+   <div id="login">
+    <h1>Login</h1>
+   
+   </div>
+   <div id="email"><input type="text" placeholder="Email">
+    <hr> </hr></div>
+  
+   <div><input type="text" id="pass" placeholder="Password"> <hr> </hr></div>
+
+  <button id="button">Login</button>
+
+<p id="fg">Forgot Password</p>
+<p>Don't have an account</p>
+</div>
+</body>
+</html>
+
+
