@@ -1,7 +1,7 @@
-Team member Names:
+Team members Name:-
 
-1> Bitu Sah         ---> fw18_0236  
-2> Ankit Kumar      ---> fw18_0078  
-3> Rajat s Kale     ---> fw18_0347  
-4> Shivam Kumar     ---> fw18_0436  
-5> Kanchan Gaikwad  ---> fw18_0437
+1> Bitu Sah         ---> fw18_0236 (work on as Team lead) 
+2> Ankit Kumar      ---> fw18_0078  (work on navbar page)
+3> Rajat s Kale     ---> fw18_0347  (work on menspage)
+4> Shivam Kumar     ---> fw18_0436  (work on signup page)
+5> Kanchan Gaikwad  ---> fw18_0437  (work on login page)
